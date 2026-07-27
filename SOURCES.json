@@ -10,6 +10,14 @@
     "data/wells.csv": {
       "description": "Well metadata: location, depth, distance from the disposal trench.",
       "source": "Site closure survey, 1981 (synthetic replica)"
+    },
+    "data/wells.geojson": {
+      "description": "Same wells as point geometries (WGS84).",
+      "source": "Site closure survey, 1981 (synthetic replica)"
+    },
+    "data/site_features.geojson": {
+      "description": "Site boundary, disposal trench, Coal Creek (flows southeast), and the town of Delmar (WGS84).",
+      "source": "Site closure survey, 1981 + state hydrology atlas (synthetic replicas)"
     }
   },
   "reference_values": {

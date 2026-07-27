@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.11949999999999,
+              41.817
+            ],
+            [
+              -90.11019999999999,
+              41.8168
+            ],
+            [
+              -90.10979999999999,
+              41.824799999999996
+            ],
+            [
+              -90.116,
+              41.8256
+            ],
+            [
+              -90.1198,
+              41.824
+            ],
+            [
+              -90.11949999999999,
+              41.817
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Site boundary",
+        "kind": "boundary",
+        "source": "Site closure survey, 1981 (synthetic replica)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1154,
+              41.8211
+            ],
+            [
+              -90.1142,
+              41.8211
+            ],
+            [
+              -90.1142,
+              41.8216
+            ],
+            [
+              -90.1154,
+              41.8216
+            ],
+            [
+              -90.1154,
+              41.8211
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Disposal trench",
+        "kind": "trench",
+        "source": "Site closure survey, 1981 (synthetic replica)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.121,
+            41.826499999999996
+          ],
+          [
+            -90.11699999999999,
+            41.824
+          ],
+          [
+            -90.1138,
+            41.822199999999995
+          ],
+          [
+            -90.11099999999999,
+            41.8195
+          ],
+          [
+            -90.106,
+            41.814
+          ],
+          [
+            -90.09899999999999,
+            41.808
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Coal Creek",
+        "kind": "creek",
+        "flow": "to the southeast",
+        "source": "State hydrology atlas (synthetic replica)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0985,
+          41.8075
+        ]
+      },
+      "properties": {
+        "name": "Delmar (pop. ~1,900)",
+        "kind": "town",
+        "source": "State hydrology atlas (synthetic replica)"
+      }
+    }
+  ]
+}
