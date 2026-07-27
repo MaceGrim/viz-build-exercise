@@ -1,0 +1,21 @@
+{
+  "dataset": "Synthetic stand-in modeled on state environmental-agency groundwater monitoring records for a closed LLRW disposal site. Generated for this exercise; treat as the authoritative record for the story.",
+  "files": {
+    "data/tritium_readings.csv": {
+      "description": "Quarterly tritium measurements (pCi/L) from 10 on-site monitoring wells.",
+      "coverage": "1982-Q1 through 2015-Q4",
+      "notes": "Sampling gaps exist (some quarters unsampled). No data has been collected or digitized after 2015-12-31.",
+      "source": "State environmental agency quarterly monitoring reports, 1982-2015 (synthetic replica)"
+    },
+    "data/wells.csv": {
+      "description": "Well metadata: location, depth, distance from the disposal trench.",
+      "source": "Site closure survey, 1981 (synthetic replica)"
+    }
+  },
+  "reference_values": {
+    "epa_tritium_mcl_pci_l": {
+      "value": 20000,
+      "source": "US EPA National Primary Drinking Water Regulations, 40 CFR 141.66 (real value)"
+    }
+  }
+}
