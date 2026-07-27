@@ -6,14 +6,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1184,
-          41.8231
+          -90.11717,
+          41.822797
         ]
       },
       "properties": {
         "well_id": "MW-01",
         "depth_ft": 42,
-        "distance_from_trench_m": 310,
+        "distance_from_trench_m": 269,
         "source": "Site closure survey, 1981 (synthetic replica)"
       }
     },
@@ -22,14 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1128,
-          41.8195
+          -90.118014,
+          41.821539
         ]
       },
       "properties": {
         "well_id": "MW-02",
         "depth_ft": 38,
-        "distance_from_trench_m": 260,
+        "distance_from_trench_m": 257,
         "source": "Site closure survey, 1981 (synthetic replica)"
       }
     },
@@ -38,8 +38,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1143,
-          41.8214
+          -90.114617,
+          41.820714
         ]
       },
       "properties": {
@@ -54,14 +54,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1161,
-          41.8179
+          -90.115964,
+          41.823336
         ]
       },
       "properties": {
         "well_id": "MW-04",
         "depth_ft": 47,
-        "distance_from_trench_m": 420,
+        "distance_from_trench_m": 272,
         "source": "Site closure survey, 1981 (synthetic replica)"
       }
     },
@@ -70,8 +70,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1131,
-          41.8222
+          -90.113466,
+          41.819856
         ]
       },
       "properties": {
@@ -86,14 +86,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1177,
-          41.8202
+          -90.118375,
+          41.819922
         ]
       },
       "properties": {
         "well_id": "MW-06",
         "depth_ft": 44,
-        "distance_from_trench_m": 340,
+        "distance_from_trench_m": 305,
         "source": "Site closure survey, 1981 (synthetic replica)"
       }
     },
@@ -102,8 +102,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1163,
-          41.8219
+          -90.11419,
+          41.820396
         ]
       },
       "properties": {
@@ -118,14 +118,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1119,
-          41.8186
+          -90.113192,
+          41.823066
         ]
       },
       "properties": {
         "well_id": "MW-08",
         "depth_ft": 40,
-        "distance_from_trench_m": 480,
+        "distance_from_trench_m": 275,
         "source": "Site closure survey, 1981 (synthetic replica)"
       }
     },
@@ -134,8 +134,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1148,
-          41.8238
+          -90.113124,
+          41.819602
         ]
       },
       "properties": {
@@ -150,14 +150,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1112,
-          41.8204
+          -90.111143,
+          41.822617
         ]
       },
       "properties": {
         "well_id": "MW-10",
         "depth_ft": 36,
-        "distance_from_trench_m": 530,
+        "distance_from_trench_m": 367,
         "source": "Site closure survey, 1981 (synthetic replica)"
       }
     }

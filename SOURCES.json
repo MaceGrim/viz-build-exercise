@@ -16,8 +16,8 @@
       "source": "Site closure survey, 1981 (synthetic replica)"
     },
     "data/site_features.geojson": {
-      "description": "Site boundary, disposal trench, Coal Creek (flows southeast), and the town of Delmar (WGS84).",
-      "source": "Site closure survey, 1981 + state hydrology atlas (synthetic replicas)"
+      "description": "Site boundary, disposal trench, Coal Creek (flows southeast), elevation contours (ft), and the town of Delmar (WGS84). Regional groundwater flow follows the topography: southeast, from the trench toward the creek.",
+      "source": "Site closure survey, 1981 + state hydrology atlas + USGS topo sheet (synthetic replicas)"
     }
   },
   "reference_values": {
