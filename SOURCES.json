@@ -1,29 +1,31 @@
 {
-  "dataset": "Synthetic stand-in modeled on state environmental-agency groundwater monitoring records for a closed LLRW disposal site. Generated for this exercise; treat as the authoritative record for the story.",
+  "dataset": "Real public records for the Sheffield LLRW disposal site, Bureau County, Illinois.",
   "files": {
-    "data/tritium_readings.csv": {
-      "description": "Quarterly tritium measurements (pCi/L) from 10 on-site monitoring wells.",
-      "coverage": "1982-Q1 through 2015-Q4",
-      "notes": "Sampling gaps exist (some quarters unsampled). No data has been collected or digitized after 2015-12-31.",
-      "source": "State environmental agency quarterly monitoring reports, 1982-2015 (synthetic replica)"
+    "report/sheffield-cy2023-monitoring-report.pdf": {
+      "description": "2023 Radiological Environmental Monitoring Report for Sheffield Low-Level Radioactive Waste Site. 71 pages: site history, hydrology (two groundwater pathways), monitoring-location maps (Appendix A, pp. 23-27), and sample results (Appendix D, pp. 46+).",
+      "source": "Illinois Emergency Management Agency and Office of Homeland Security (IEMA-OHS), Office of Nuclear Safety",
+      "url": "https://iemaohs.illinois.gov/content/dam/soi/en/web/iemaohs/nrs/documents/cy2023-sheffield-llrw-disposal-site-environmental-monitoring-report.pdf"
     },
-    "data/wells.csv": {
-      "description": "Well metadata: location, depth, distance from the disposal trench.",
-      "source": "Site closure survey, 1981 (synthetic replica)"
+    "data/tritium_2023.csv": {
+      "description": "Tritium (H-3) results for on-site water samples, CY2023, pCi/L. '<MDC' = below the Minimum Detectable Concentration.",
+      "source": "Table D.3, pp. 49-50 of the report above. Transcribed by hand from the PDF (the tables are images); verify against the PDF before publishing.",
+      "notes": "The report contains no coordinates for the sampling locations. Locations are shown in the maps of Appendix A (Figure A-2, p. 24)."
     },
-    "data/wells.geojson": {
-      "description": "Same wells as point geometries (WGS84).",
-      "source": "Site closure survey, 1981 (synthetic replica)"
+    "data/tl_2023_17011_linearwater.zip": {
+      "description": "Streams and linear water features, Bureau County IL (full-resolution shapefile).",
+      "source": "US Census Bureau, TIGER/Line 2023",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2023/LINEARWATER/tl_2023_17011_linearwater.zip"
     },
-    "data/site_features.geojson": {
-      "description": "Site boundary, disposal trench, Coal Creek (flows southeast), elevation contours (ft), and the town of Delmar (WGS84). Regional groundwater flow follows the topography: southeast, from the trench toward the creek.",
-      "source": "Site closure survey, 1981 + state hydrology atlas + USGS topo sheet (synthetic replicas)"
+    "data/tl_2023_17011_areawater.zip": {
+      "description": "Lakes and area water features, Bureau County IL (full-resolution shapefile).",
+      "source": "US Census Bureau, TIGER/Line 2023",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2023/AREAWATER/tl_2023_17011_areawater.zip"
     }
   },
   "reference_values": {
     "epa_tritium_mcl_pci_l": {
       "value": 20000,
-      "source": "US EPA National Primary Drinking Water Regulations, 40 CFR 141.66 (real value)"
+      "source": "US EPA National Primary Drinking Water Regulations, 40 CFR 141.66"
     }
   }
 }

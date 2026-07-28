@@ -1,9 +1,19 @@
-# Brief: Groundwater Monitoring Story
+# Brief: Sheffield Groundwater Story
 
 We support an environmental-justice publication with data-driven visuals. A reporter is
-writing a story about a closed low-level radioactive waste disposal site and the decades
-of groundwater monitoring that followed its shutdown. (The dataset here is a synthetic
-stand-in for the real records — treat it exactly as you would real reporting data.)
+writing a story about the **Sheffield Low-Level Radioactive Waste disposal site** in Bureau
+County, Illinois — closed since 1978, monitored ever since. This is a real site and real
+public data.
+
+## What you have
+
+- `report/sheffield-cy2023-monitoring-report.pdf` — the State of Illinois (IEMA-OHS)
+  monitoring report for calendar year 2023. Everything is in here: history, hydrology,
+  maps of the monitoring network (Appendix A), and the sample results (Appendix D).
+- `data/tritium_2023.csv` — Table D.3 of that report (on-site tritium results), typed up
+  for you.
+- `data/tl_2023_17011_*.zip` — US Census TIGER water layers for Bureau County (streams
+  and waterbodies), in case they're useful.
 
 ## The ask
 
@@ -19,5 +29,5 @@ reading it, what matters most, what format works.
 - `output/graphic.png` — one graphic
 - A caption + data-attribution line (in the PNG or a small text file next to it)
 
-Follow the design guide in `STYLE.md`. The data is in `data/` (tabular + GeoJSON),
-documented in `SOURCES.json`.
+Follow the design guide in `STYLE.md`. Sources are documented in `SOURCES.json` — the
+sourcing standard in `STYLE.md` applies to everything you show.
