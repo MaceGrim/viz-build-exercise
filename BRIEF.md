@@ -12,6 +12,8 @@ public data.
   maps of the monitoring network (Appendix A), and the sample results (Appendix D).
 - `data/tritium_2023.csv` — Table D.3 of that report (on-site tritium results), typed up
   for you.
+- `data/sheffield_site.geojson` — the site's location: centroid point + approximate
+  boundary polygon.
 - `data/tl_2023_17011_*.zip` — US Census TIGER water layers for Bureau County (streams
   and waterbodies), in case they're useful.
 

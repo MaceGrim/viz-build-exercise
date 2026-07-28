@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.793821,
+          41.339549
+        ]
+      },
+      "properties": {
+        "name": "Sheffield LLRW Disposal Site (centroid)",
+        "kind": "site_point",
+        "source": "Approximate site centroid, digitized from IEMA CY2023 report location figures (Fig. 1 p.7, Appendix A)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -89.79389435546399,
+                41.34078650456017
+              ],
+              [
+                -89.7942453159977,
+                41.338886509626214
+              ],
+              [
+                -89.79421760858715,
+                41.33786714643242
+              ],
+              [
+                -89.79339562207403,
+                41.33786021193429
+              ],
+              [
+                -89.79172394163724,
+                41.337811670426696
+              ],
+              [
+                -89.79002455378985,
+                41.337915687898665
+              ],
+              [
+                -89.79005226120042,
+                41.33876862490264
+              ],
+              [
+                -89.7901353834321,
+                41.339940528260065
+              ],
+              [
+                -89.79022774146728,
+                41.340793438746736
+              ],
+              [
+                -89.79048634396578,
+                41.34099452983584
+              ],
+              [
+                -89.79057870200094,
+                41.34100146400026
+              ],
+              [
+                -89.79163158360204,
+                41.34081424130199
+              ],
+              [
+                -89.79389435546399,
+                41.34078650456017
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Site boundary",
+        "kind": "site_boundary",
+        "source": "Approximate boundary, digitized in QGIS from IEMA CY2023 report Appendix A figures; verify before publication"
+      }
+    }
+  ]
+}

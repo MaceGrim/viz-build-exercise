@@ -11,6 +11,11 @@
       "source": "Table D.3, pp. 49-50 of the report above. Transcribed by hand from the PDF (the tables are images); verify against the PDF before publishing.",
       "notes": "The report contains no coordinates for the sampling locations. Locations are shown in the maps of Appendix A (Figure A-2, p. 24)."
     },
+    "data/sheffield_site.geojson": {
+      "description": "Site centroid point and approximate site boundary polygon (WGS84).",
+      "source": "Digitized in QGIS from the location figures in the IEMA CY2023 report (Figure 1, Appendix A). Approximate — verify against the report before publication.",
+      "notes": "The monitoring wells are NOT included here; their locations appear only in the report's Appendix A maps."
+    },
     "data/tl_2023_17011_linearwater.zip": {
       "description": "Streams and linear water features, Bureau County IL (full-resolution shapefile).",
       "source": "US Census Bureau, TIGER/Line 2023",
