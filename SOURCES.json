@@ -13,8 +13,8 @@
     },
     "data/sheffield_site.geojson": {
       "description": "Site centroid point and approximate site boundary polygon (WGS84).",
-      "source": "Digitized in QGIS from the location figures in the IEMA CY2023 report (Figure 1, Appendix A). Approximate — verify against the report before publication.",
-      "notes": "The monitoring wells are NOT included here; their locations appear only in the report's Appendix A maps."
+      "source": "Digitized in QGIS from the location figures in the IEMA CY2023 report (Figure 1, Appendix A). Approximate \u2014 verify against the report before publication.",
+      "notes": "Monitoring well locations are in data/wells.geojson."
     },
     "data/tl_2023_17011_linearwater.zip": {
       "description": "Streams and linear water features, Bureau County IL (full-resolution shapefile).",
@@ -25,6 +25,10 @@
       "description": "Lakes and area water features, Bureau County IL (full-resolution shapefile).",
       "source": "US Census Bureau, TIGER/Line 2023",
       "url": "https://www2.census.gov/geo/tiger/TIGER2023/AREAWATER/tl_2023_17011_areawater.zip"
+    },
+    "data/wells.geojson": {
+      "description": "Monitoring well locations (29 points, WGS84). Property 'id' = well number as used in Table D.3 (e.g. 563, 575, 577); null where the figure label was unreadable.",
+      "source": "Digitized in QGIS from the monitoring-location maps in the IEMA CY2023 report (Figure A-2, p. 24). Approximate \u2014 the report publishes no coordinates; verify against the report before publication."
     }
   },
   "reference_values": {
